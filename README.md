@@ -5,7 +5,7 @@ Parse Bank Account  - exercise
 
  You work for a bank, which has recently purchased an ingenious machine to assist in reading letters and faxes sent in by branch offices.
  The machine scans the paper documents, and produces a string with a bank account that looks like this:
- _     _  _     _  _  _  _  _
+  _     _  _     _  _  _  _  _
 | |  | _| _||_||_ |_   ||_||_|
 |_|  ||_  _|  | _||_|  ||_| _|
 
