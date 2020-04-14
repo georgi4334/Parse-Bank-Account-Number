@@ -1,9 +1,8 @@
 function parseBankAccount(bankAccount) {
-    var lines = bankAccount.split('\n');
-    var numbers = getNumbers(lines)
-    var result = parseInt(numbers.map(number => getNumberFromString(number)).join(''))
-    //console.log(result)
-    return result
+    let lines = bankAccount.split('\n');
+    let numbers = getNumbers(lines)
+    return parseInt(numbers.map(number => getNumberFromString(number)).join(''))
+
 }
 
 function getNumberFromString(s) {
@@ -33,7 +32,7 @@ function getNumberFromString(s) {
 
 function getNumbers(lines) {
     numbers = []
-    for (i = 0; i < 20; i++) {
+    for (let i = 0; i < 20; i++) {
         numbers[i] = ''
         lines.forEach(line => {
             numbers[i] = numbers[i] + line.substr(i * 3, 3);
